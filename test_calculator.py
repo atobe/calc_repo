@@ -1,6 +1,6 @@
 """
 Unit tests for the calculator library
-
+https://realpython.com/python-continuous-integration/#your-turn
 """
 
 import calculator
@@ -16,3 +16,6 @@ class TestCalculator:
 
     def test_multiplication(self):
         assert 100 == calculator.multiply(10, 10)
+
+    def test_negation(self):
+        assert 300 == calculator.negate(-300)
